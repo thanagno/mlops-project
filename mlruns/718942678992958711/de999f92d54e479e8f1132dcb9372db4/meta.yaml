@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tanagnos/Downloads/mlops-project/mlruns/718942678992958711/de999f92d54e479e8f1132dcb9372db4/artifacts
+end_time: 1736344770286
+entry_point_name: ''
+experiment_id: '718942678992958711'
+lifecycle_stage: active
+run_id: de999f92d54e479e8f1132dcb9372db4
+run_name: bald-fly-152
+run_uuid: de999f92d54e479e8f1132dcb9372db4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736344757799
+status: 3
+tags: []
+user_id: tanagnos
