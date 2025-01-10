@@ -1,6 +1,8 @@
 # Insurance Cross Sell Prediction 🏠🏥
 [![GitHub](https://img.shields.io/badge/GitHub-code-blue?style=flat&logo=github&logoColor=white&color=red)](https://github.com/prsdm/mlops-project) [![Medium](https://img.shields.io/badge/Medium-view_article-green?style=flat&logo=medium&logoColor=white&color=green)](https://medium.com/@prasadmahamulkar/machine-learning-operations-mlops-for-beginners-a5686bfe02b2)
 
+This was forked and adapted from https://github.com/prsdm/ml-project.git.
+
 Welcome to the Insurance Cross-Selling Prediction project! The goal of this project is to predict which customers are most likely to purchase additional insurance products using a machine learning model.
 
 
@@ -14,7 +16,7 @@ To get started with the project, follow the steps below:
 #### 1. Clone the Repository
 Clone the project repository from GitHub:
 ```bash
-git clone https://github.com/prsdm/ml-project.git
+git clone https://github.com/thanagno/ml-project.git
 ```
 ```bash
 cd ml-project
@@ -56,7 +58,14 @@ Start the FastAPI application by running:
 uvicorn app:app --reload
 ```
 
-#### 6. Docker
+#### 6. Streamlit
+Start the Streamlit application by running:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+#### 7. Docker
 To build the Docker image and run the container:
 
 ```bash
@@ -66,7 +75,7 @@ docker build -t my_fastapi .
 docker run -p 80:80 my_fastapi
 ```
 Once your Docker image is built, you can push it to Docker Hub, making it accessible for deployment on any cloud platform.
-#### 7. Monitor the Model
+#### 8. Monitor the Model
 Integrate Evidently AI to monitor the model for data drift and performance degradation:
 
 ```bash
